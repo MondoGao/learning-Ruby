@@ -1,0 +1,6 @@
+- Use ``learn/rspec --fail-fast`` in CLI to show only one failure.
+- Only ``nil`` and ``false`` equal ``false``.
+- Methods with only parameter can be called without parentheses.
+- Double-bang operator(!!) can determine if one thing is truthy.
+- Use ``learn/rspec --format documentation`` to control print.
+- There is no ``++`` and using it will make Ruby throw a ``Syntax Error``
