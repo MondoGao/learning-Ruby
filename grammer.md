@@ -61,3 +61,14 @@ iterator.each do |item|
   # do something
 end
 ```
+
+## Boolean Enumerables
+### ``#all?``
+### ``#none?``
+### ``#any?``
+### ``#include?``
+
+## Search Enumerables
+### ``#select``
+### ``#find or #detect``
+### ``#reject``

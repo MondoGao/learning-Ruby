@@ -1,6 +1,10 @@
 - Use ``learn/rspec --fail-fast`` in CLI to show only one failure.
+- Use ``<<`` to add/push item in array
 - Only ``nil`` and ``false`` equal ``false``.
 - Methods with only parameter can be called without parentheses.
 - Double-bang operator(!!) can determine if one thing is truthy.
 - Use ``learn/rspec --format documentation`` to control print.
-- There is no ``++`` and using it will make Ruby throw a ``Syntax Error``
+- There is no ``++`` and using it will make Ruby throw a ``Syntax Error``.
+- The ``#each`` method will always return the original collection on which it was called.
+- Data type: ``Object.class``
+- If behind: ``matches << i if i.even? ``
