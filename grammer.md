@@ -62,6 +62,34 @@ iterator.each do |item|
 end
 ```
 
+## Class
+```ruby
+class MyClass
+  COMMON_ATTIBUTE = "HI!"
+    
+  def initialize(name)
+    @this_name = name
+  end
+
+  def name=(name)
+    @this_name = name
+  end
+  
+  def name
+    @this_name
+  end
+
+  def MyMethod
+  end
+end
+
+me = MyClass.new("Mondo")
+MyClass::COMMON_ATTIBUTE
+# not recommend
+me.instance_variable_set(:@name, "Hugo")
+me.instance_variable_get(:@name)
+```
+
 ## Boolean Enumerables
 ### ``#all?``
 ### ``#none?``
