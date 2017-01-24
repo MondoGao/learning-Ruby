@@ -8,3 +8,4 @@
 - The ``#each`` method will always return the original collection on which it was called.
 - Data type: ``Object.class``
 - If behind: ``matches << i if i.even? ``
+- Boolean operator ``||`` behave the way like JavaScript, for example ``7 < 6 || 7`` will return ``7`` instead of ``true``, ``7 > 6 || 7`` will return ``true``
