@@ -34,6 +34,12 @@ else
   # do something
 end
 ```
+```ruby
+case variable
+  when "value" # variable === value, === difer from ==
+    # do something
+end
+```
 
 ## Loop
 ```ruby
