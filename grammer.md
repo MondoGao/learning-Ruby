@@ -46,6 +46,10 @@ mixed.reverse
 mixed.include?
 mixed.size
 ```
+### Converting Types
+- String to Array: ``"H,i".split(',') # > ["H", "i"]``
+- Array to String: ``["H", "i"].join # > "Hi"``
+- Range to Array: ``(1..3).to_a # > [1, 2, 3]``
 
 ## Method
 ```ruby
@@ -100,6 +104,16 @@ end
 iterator.each do |item|
   # do something
 end
+# > iterator
+
+iterator.each_with_index do |item, i|
+ # do something
+end
+
+iterator.collect do |item|
+  # do something and return a value
+end
+# > new iterator with all return values
 ```
 
 ## Class
