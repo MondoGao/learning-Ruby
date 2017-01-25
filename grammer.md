@@ -49,15 +49,15 @@ loop do
 end
 
 while condition
-  # do something
+  # do something or break
 end
 
 until condition
-  # do something
+  # do something or break
 end
 
 n.times do
-  # do something
+  # do something or break
 end
 ```
 
