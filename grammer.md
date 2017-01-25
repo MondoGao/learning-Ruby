@@ -51,6 +51,17 @@ mixed.size
 - Array to String: ``["H", "i"].join # > "Hi"``
 - Range to Array: ``(1..3).to_a # > [1, 2, 3]``
 
+## Yield
+Stop executing the code in this method and instead execute the code in the block. Then, return to the code in the method.
+```ruby
+def yielding_with_arguments(num)
+  puts "the program is executing the code inside the method"
+  yield(num)
+  puts "now we are back in the method"
+end
+yielding_with_arguments(2) {|i| puts i * 2}
+```
+
 ## Method
 ```ruby
 def method_name(parameter)
