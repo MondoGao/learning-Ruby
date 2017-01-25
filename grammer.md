@@ -55,9 +55,11 @@ mixed.size
 Stop executing the code in this method and instead execute the code in the block. Then, return to the code in the method.
 ```ruby
 def yielding_with_arguments(num)
-  puts "the program is executing the code inside the method"
-  yield(num)
-  puts "now we are back in the method"
+  if block_given? # return true if the method is called with a block
+    puts "the program is executing the code inside the method"
+    yield(num)
+    puts "now we are back in the method"
+  end
 end
 yielding_with_arguments(2) {|i| puts i * 2}
 ```
