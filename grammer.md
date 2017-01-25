@@ -7,10 +7,44 @@ some_variable = "something"
 ```ruby
 "something" == String.new("something")
 7 || 7.3
-[] == Array.new
 {} == Hash.new
 :some_symbol
 true || false
+```
+### Array
+#### Create
+```ruby
+new_array = []
+new_array = Array.new
+```
+#### Add
+```ruby
+mixed = ["this", 20, "has", 45, "&", "strings"]
+mixed << 400
+mixed.push("cat")
+mixed.unshift("dog")
+mix.inspect # > ["dog", "this", 20, "has", 45, "&", "strings", 400, "cat"]
+```
+#### Remove
+```ruby
+mixed.shift
+mixed.pop
+```
+#### Retrieve
+```ruby
+mixed[0]
+mixed.first # > "this"
+mixed[-1]
+mixed.last # > 400
+mixed[999] # > nil
+```
+#### Methods
+```ruby
+mixed.sort
+mixed.sort! # will change the origin array
+mixed.reverse
+mixed.include?
+mixed.size
 ```
 
 ## Method
