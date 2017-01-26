@@ -51,6 +51,21 @@ mixed.reverse
 mixed.include?
 mixed.size
 ```
+### Hash
+#### Create
+```ruby
+hash = {"key" => "value", "another_key" => "another value"}
+Hash.new()
+```
+### Retrieve
+```ruby
+hash["key"] # > "value", [] is a method named "bracket method"
+```
+### Add
+```ruby
+hash["new_key"] = "new_value"
+```
+
 ### Converting Types
 - String to Array: ``"H,i".split(',') # > ["H", "i"]``
 - Array to String: ``["H", "i"].join # > "Hi"``
