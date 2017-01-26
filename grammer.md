@@ -128,6 +128,10 @@ iterator.each_with_index do |item, i|
  # do something
 end
 
+iterator.each_with_index.collect do |item, i|
+  # do something
+end # Iterators in Ruby are chainable
+
 iterator.collect do |item|
   # do something and return a value
 end
