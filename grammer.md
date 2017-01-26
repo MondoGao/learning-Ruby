@@ -11,6 +11,11 @@ some_variable = "something"
 :some_symbol
 true || false
 ```
+### Operator
+- Spaceship operator(<=>): returns 0 if the first operand equals the second,
+returns -1 if the first operand is less than the second, and
+returns 1 if the first operand is greater than the second.
+
 ### Array
 #### Create
 ```ruby
