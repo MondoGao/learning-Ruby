@@ -57,7 +57,7 @@ Stop executing the code in this method and instead execute the code in the block
 def yielding_with_arguments(num)
   if block_given? # return true if the method is called with a block
     puts "the program is executing the code inside the method"
-    yield(num)
+    yield(num) # > equal the return value of the block
     puts "now we are back in the method"
   end
 end
@@ -167,3 +167,4 @@ me.instance_variable_get(:@name)
 ### ``#select``
 ### ``#find or #detect``
 ### ``#reject``
+### ``delete_if``
