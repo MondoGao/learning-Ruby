@@ -61,13 +61,19 @@ hash = {:key => "value"} # the same meaning as above, :key is a symbol that is i
 
 Hash.new()
 ```
-### Retrieve
+#### Retrieve
 ```ruby
 hash["key"] # > "value", [] is a method named "bracket method"
 ```
-### Add
+#### Add
 ```ruby
 hash["new_key"] = "new_value"
+```
+#### Method
+```ruby
+hash.keys
+hash.values
+hash.min
 ```
 
 ### Converting Types
