@@ -76,6 +76,14 @@ hash.values
 hash.min
 ```
 
+### RegEx
+#### Methods
+```ruby
+String.scan(//) # return all matches
+String.match(//)
+Array.grep(//) # Similar to Scan
+```
+
 ### Converting Types
 - String to Array: ``"H,i".split(',') # > ["H", "i"]``
 - Array to String: ``["H", "i"].join # > "Hi"``
