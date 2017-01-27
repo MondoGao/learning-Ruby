@@ -55,6 +55,10 @@ mixed.size
 #### Create
 ```ruby
 hash = {"key" => "value", "another_key" => "another value"}
+
+hash = {key: "value"}
+hash = {:key => "value"} # the same meaning as above, :key is a symbol that is immutable
+
 Hash.new()
 ```
 ### Retrieve
