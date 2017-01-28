@@ -194,7 +194,11 @@ class MyClass
   def MyMethod
   end
   
-  def self.instance_method_only 
+  def self.instance_method_only # self is refer to the instance itself
+    define_method("method_name") do
+      # method body
+     end
+end
   end
 end
 
