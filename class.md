@@ -2,6 +2,7 @@
 ```ruby
 class MyClass
   @@class_variable # variable for only the class not a instance
+  COMMON_ATTIBUTE = "HI!"
     
   def self.class_method_name # method for the class not a instance, self refer to the class not a instance
     define_method("method_name") do
@@ -9,7 +10,6 @@ class MyClass
      end
   end
 
-  COMMON_ATTIBUTE = "HI!"
   attr_accessor :name # a macro to create getter and setter methods
   attr_reader :name
   attr_writer :name
@@ -27,14 +27,19 @@ class MyClass
   end
 
   def MyMethod
+  
   end
-
+  
+  private
+  def private_method
+    # can't be called out of the class scope
   end
 end
 
 me = MyClass.new("Mondo")
 
 def me.instance_method_only 
+
 end
 
 MyClass::COMMON_ATTIBUTE
