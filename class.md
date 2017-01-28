@@ -2,12 +2,27 @@
 ```ruby
 class MyClass
   @@class_variable # variable for only the class not a instance
+  @@people = []
   COMMON_ATTIBUTE = "HI!"
     
   def self.class_method_name # method for the class not a instance, self refer to the class not a instance
     define_method("method_name") do
       # method body
      end
+  end
+  
+  def self.all # reader for class variable
+    @@people
+  end
+  
+  def self.finder(name) # class finder method
+    self.all.detect do |people|
+      people.name == name
+    end
+  end
+  
+  def self.create(name) # class factor(initialize) method
+    self.all << self.new(name)
   end
 
   attr_accessor :name # a macro to create getter and setter methods
@@ -16,6 +31,8 @@ class MyClass
     
   def initialize(name)
     @this_name = name
+    @@all << self
+    self.class.all << self # this usage is more abstracting than above
   end
 
   def name=(name)
