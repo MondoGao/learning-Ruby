@@ -12,3 +12,4 @@
 - The return value of ``case`` is the return value of the executing branch
 - ``(a..b)`` means a range of a to b
 - ``str.split(//)`` return a array of every char in str
+- ``%w(foo bar)`` is a shortcut for ``["foo", "bar"]``
