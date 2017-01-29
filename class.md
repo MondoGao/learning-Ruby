@@ -64,3 +64,13 @@ MyClass::COMMON_ATTIBUTE
 me.instance_variable_set(:@name, "Hugo")
 me.instance_variable_get(:@name)
 ```
+
+### Relationships
+```rubyf
+a = A.new
+b = B.new
+```
+#### Belongs To and Has Many
+```ruby
+a.author = b # a belongs to b, b has many As
+```

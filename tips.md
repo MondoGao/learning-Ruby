@@ -13,3 +13,4 @@
 - ``(a..b)`` means a range of a to b
 - ``str.split(//)`` return a array of every char in str
 - ``%w(foo bar)`` is a shortcut for ``["foo", "bar"]``
+- ``Object.frozen`` can make the object unchangable
