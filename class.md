@@ -65,12 +65,24 @@ me.instance_variable_set(:@name, "Hugo")
 me.instance_variable_get(:@name)
 ```
 
-### Relationships
-```rubyf
-a = A.new
-b = B.new
-```
-#### Belongs To and Has Many
+### Belongs To and Has Many Relationships
 ```ruby
 a.author = b # a belongs to b, b has many As
+```
+
+### Inherit and Module
+```ruby
+class SubClass < SuperClass
+  # rewrite methods
+end
+```
+
+```ruby
+module Module
+  # module methods
+end
+
+class HasModule
+  include Module
+end
 ```
