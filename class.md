@@ -80,9 +80,13 @@ end
 ```ruby
 module Module
   # module methods
+  module NestModule
+    # module can be nested
+  end
 end
 
 class HasModule
-  include Module
+  extend Module::NestModule # extend module as class methods
+  include Module # include module as instance methods
 end
 ```
