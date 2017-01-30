@@ -75,6 +75,10 @@ a.author = b # a belongs to b, b has many As
 class SubClass < SuperClass
   # rewrite methods
 end
+
+class SubClass::SuperClass # just give SubClass access to all constants, instance methods, without inherit relationship
+  # rewrite methods
+end
 ```
 
 ```ruby
