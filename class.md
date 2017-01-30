@@ -74,6 +74,10 @@ a.author = b # a belongs to b, b has many As
 ```ruby
 class SubClass < SuperClass
   # rewrite methods
+  def some_rewrite_method
+    super # call the same named method in SuperClass
+    # do somthing else
+  end
 end
 
 class SubClass::SuperClass # just give SubClass access to all constants, instance methods, without inherit relationship
