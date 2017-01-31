@@ -90,6 +90,10 @@ module Module
   # module methods
   module NestModule
     # module can be nested
+    def self.extended(base) # hook, apply to the module self
+      puts "#{base} has been extended by #{self}" # base is the class which extend this module
+      base.class_instance_variable_set(:@@all, [])
+    end
   end
 end
 
