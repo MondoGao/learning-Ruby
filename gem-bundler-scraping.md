@@ -25,4 +25,5 @@ require 'open-uri'
 
 doc = Nokogiri::HTML(open("http://www.baidu.com/"))
 doc.css(css_selector) # one method to query elements
+doc.css(css_selector).attribute(atr_str).value
 ```
