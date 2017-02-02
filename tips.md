@@ -14,3 +14,4 @@
 - ``str.split(//)`` return a array of every char in str
 - ``%w(foo bar)`` is a shortcut for ``["foo", "bar"]``
 - ``Object.frozen`` can make the object unchangable
+- ``num.between?`` and ``range.cover?``
