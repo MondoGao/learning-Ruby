@@ -1,7 +1,8 @@
 # ORM and SQL
 ## Basic
 ```ruby
-SQLite3::Database.new(db)
+conn = SQLite3::Database.new(db)
+conn.results_as_hash # return database row as a hash
 ```
 
 - Here Document
