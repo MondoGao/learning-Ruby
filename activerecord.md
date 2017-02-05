@@ -29,3 +29,12 @@ instance.update_all(string_or_hash)
 instance.destroy
 instance.destroy_all
 ```
+
+## Assiociation
+```ruby
+class A < ActiveRecord::Base
+ has_many :bs
+ has_many :cs, througn: :bs
+ belongs_to :d
+end
+```
