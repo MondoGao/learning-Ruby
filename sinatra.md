@@ -10,7 +10,13 @@ class Application < Sinatra::Base
   
   get '/' do
     "Hello, World!"
+    @user = "name" # pass to view
     erb :index
+  end
+  
+  get '/:dynamic' do
+    params[:dynamic]
+    # @user == nil here
   end
 end
 ```
@@ -27,6 +33,18 @@ run Application
 <% if statement %>
 <%= params[:user_name] %>
 <% end %>
+<%= yield %>
+<input name="students[grade][]" # [] => auto increace index
+```
+
+## Sessions
+```ruby
+class App < Sinatra::Base
+  configure do
+    enable :sessions
+    set :session_secret, "secret"
+  end
+end
 ```
 
 ## Capybara Tests
@@ -62,5 +80,35 @@ describe "GET '/' - Greeting Form" do
 end
 ```
 
+## Activrecord
+### Setup
+```ruby
+# Gemfile
+gem 'sinatra'
+gem 'activerecord', '4.2.5'
+gem 'sinatra-activerecord'
+gem 'thin'
+gem 'require_all'
+
+group :development do
+    gem 'shotgun'
+    gem 'pry'
+    gem 'tux'
+    gem 'sqlite3'
+end
+```
+
 ## Tips
 - The shotgun gem(auto-reload)
+- Patch action setup: MethodOverride middleware will intercept every request sent and received by our application. If it finds a request with name="_method", it will set the request type based on what is set in the value attribute, which in this case is patch.
+```ruby
+# config.ru
+use Rack::MethodOverride
+```
+```erb
+# .erb
+<form action="/" method="post">
+    <input id="hidden" type="hidden" name="_method" value="patch">
+    <input type="text" ...>
+</form>
+```
