@@ -43,6 +43,7 @@ end
 ```ruby
 class A < ActiveRecord::Base
   has_secure_password
+  validates_presence_of :username
 end
 
 a.authenticate(password)

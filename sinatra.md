@@ -122,3 +122,5 @@ use Rack::MethodOverride
     <input type="text" ...>
 </form>
 ```
+- the tux gem
+- rack-flash
