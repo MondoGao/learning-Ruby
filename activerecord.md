@@ -44,4 +44,10 @@ end
 class A < ActiveRecord::Base
   has_secure_password
 end
+
+a.authenticate(password)
+
+def change
+  t.string :password_digest
+end
 ```
