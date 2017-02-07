@@ -38,3 +38,10 @@ class A < ActiveRecord::Base
  belongs_to :d
 end
 ```
+
+## Secure
+```ruby
+class A < ActiveRecord::Base
+  has_secure_password
+end
+```

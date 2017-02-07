@@ -18,6 +18,12 @@ class Application < Sinatra::Base
     params[:dynamic]
     # @user == nil here
   end
+  
+  helpers do
+    def help_method
+
+    end
+  end
 end
 ```
 ```ruby
@@ -43,6 +49,10 @@ class App < Sinatra::Base
   configure do
     enable :sessions
     set :session_secret, "secret"
+  end
+  
+  get '/' do
+    session[:id] = @user.id
   end
 end
 ```
