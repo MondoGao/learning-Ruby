@@ -24,25 +24,28 @@ resources :photos
 ## ActionView
 ### Helper Methods
 - form
-```erb
-<!-- <form action="<%= posts_path %>" method="post"> -->
-<%= form_tag posts_path do %>
-  <label>Post title:</label><br>
-  <!-- <input type="text" id="post_title" name="post[title]"><br> -->
-  <%= text_field_tag :'post[title]' %><br>
+    ```erb
+    <%= form_tag posts_path do %>
+      <%= text_field_tag :'post[title]' %>
+      <%= text_area_tag :'post[description]' %>
+      <!-- <%= hidden_field_tag :authenticity_token, form_authenticity_token %> -->
+    
+      <%= submit_tag "Submit Post" %>
+    <% end %>
+    ```
+    - Use form_for when your form is directly connected to a model
 
-  <label>Post description:</label><br>
-  <!-- <textarea id="post_description" name="post[description]"></textarea><br> -->
-  <%= text_area_tag :'post[description]' %><br>
-
-
-  <!-- <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> -->
-  <!-- <%= hidden_field_tag :authenticity_token, form_authenticity_token %> -->
-
-  <!-- <input type="submit" value="Submit Post"> -->
-  <%= submit_tag "Submit Post" %>
-<% end %>
+## ActionController
+- strong params
+```ruby
+params.require(:post).permit(:title, :description)
 ```
+
+## Generators
+- Migrations
+- Models
+- Controllers
+- Resources
 
 ## Gems
 - rspec-rails
