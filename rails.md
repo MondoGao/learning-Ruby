@@ -41,11 +41,15 @@ resources :photos
 params.require(:post).permit(:title, :description)
 ```
 
+- ``before_action :set_article, only: [:show, :edit, :update, :destroy]``
+
 ## Generators
 - Migrations
 - Models
 - Controllers
 - Resources
+- Scaffold
+- ``--no-test-framework``
 
 ## Gems
 - rspec-rails
