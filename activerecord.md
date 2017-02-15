@@ -52,3 +52,15 @@ def change
   t.string :password_digest
 end
 ```
+
+## Validations
+```ruby
+class A < ActiveRecord::Base
+   validates :name, presence: true
+   validates :name, uniqueness: true
+   validates :name, length: {minimum: 2, maximum: 3, in: 6..20, is: 7}
+   validates :name, acceptance: true
+   validates :category, inclusion: { in: %w() }
+
+end
+```
