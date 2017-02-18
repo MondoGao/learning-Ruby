@@ -1,0 +1,26 @@
+- Rails
+    - Form
+        - https://github.com/MondoGao/flatiron-bnb-associations-cb-gh-000
+        - https://github.com/MondoGao/activerecord-lifecycle-reading-cb-gh-000
+        - https://github.com/MondoGao/flatiron-bnb-methods-cb-gh-000
+        - https://github.com/MondoGao/forms-and-basic-associations-rails-lab-cb-gh-000
+        - https://github.com/learn-co-backup/basic-nested-forms-cb-gh-000
+        - https://github.com/MondoGao/basic-nested-forms-lab-cb-gh-000
+        - https://github.com/learn-co-backup/displaying-has-many-through-rails-cb-gh-000
+        - https://github.com/MondoGao/displaying-has-many-through-rails-lab-cb-gh-000
+        - https://github.com/learn-co-backup/has-many-through-forms-rails-cb-gh-000
+        - https://github.com/MondoGao/has-many-through-forms-rails-labs-cb-gh-000
+        - https://github.com/MondoGao/rails-blog-nested-forms-cb-gh-000
+    - Layout
+        - https://github.com/MondoGao/rails-layouts-and-templates-lab-cb-gh-000
+        - https://github.com/MondoGao/simple-partials-lab-cb-gh-000
+        - https://github.com/MondoGao/partial-locals-lab-cb-gh-000
+        - https://github.com/MondoGao/flatiron-kitchen-cb-gh-000
+        - https://github.com/MondoGao/rendering-collections-lab-cb-gh-000
+        - https://github.com/MondoGao/rails-programmer-profile-partials-cb-gh-000
+    - Helpers
+        - https://github.com/MondoGao/refactoring-views-with-helpers-lab-cb-gh-000
+        - https://github.com/MondoGao/model-class-methods-lab-cb-gh-000
+    - Routes and Resources
+        - https://github.com/MondoGao/routing-nested-resources-lab-cb-gh-000
+        - https://github.com/MondoGao/modification-nested-routes-lab-cb-gh-000

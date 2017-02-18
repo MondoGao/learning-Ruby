@@ -37,6 +37,22 @@ class A < ActiveRecord::Base
  has_many :cs, througn: :bs
  belongs_to :d
 end
+
+@a.bs.build # B.new
+@b.build_a # @b.a = A.new
+```
+```ruby
+# listing.rb
+has_many :listings, :foreign_key => 'host_id'
+
+# user.rb
+belongs_to :host, :class_name => "User"
+```
+```erb
+# has_many form
+  <%= f.fields_for :categories, post.categories.build do |categories_fields| %>
+    <%= categories_fields.text_field :name %>
+  <% end %>
 ```
 
 ## Secure
@@ -72,4 +88,17 @@ class A < ActiveRecord::Base
     }
   end
 end
+```
+
+## Lifecycle Methods
+```ruby
+  before_save :make_title_case 
+  before_validation :make_title_case # when modifying an attribute of the model, use before_validation
+  before_create :method
+```
+
+## Form Methods
+```ruby
+accepts_nested_attributes_for :address
+# <%= f.fields_for :addresses do |addr| %>
 ```
