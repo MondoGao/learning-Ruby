@@ -11,12 +11,32 @@ Rails.application.routes.draw do
       # nested resource for posts
       resources :posts, only: [:show, :index]
     end
+    
+  scope '/admin', module: 'admin' do
+    resources :stats, only: [:index]
+  end
+  
+  # same as above, but the url_helper method change
+  namespace :admin do
+    resources :stats, only: [:index]
+  end
 end
 
 # app/controllers/static_controller.rb
 class StaticController < ActionController::Base
   def about
     # render "some_page"
+  end
+end
+
+# controllers/admin/stats_controller.rb
+ 
+class Admin::StatsController < ApplicationController
+  before_action :require_login
+  skip_before_action :require_login, only: [:index]
+
+  def index
+    return head(:forbidden) unless session.include? :user_id
   end
 end
 ```
@@ -64,3 +84,9 @@ require 'rails_helper'
 ```bash
 rails g rspec:install
 ```
+
+- Omniauth
+- Devise
+- authlogic
+- rolify
+- CanCanCan and Pundit

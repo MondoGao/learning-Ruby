@@ -24,3 +24,164 @@
     - Routes and Resources
         - https://github.com/MondoGao/routing-nested-resources-lab-cb-gh-000
         - https://github.com/MondoGao/modification-nested-routes-lab-cb-gh-000
+        - https://github.com/MondoGao/namespaced-routes-lab-cb-gh-000
+        - https://github.com/MondoGao/rails-pollywog-ranch-cb-gh-000
+    - Authentication
+        - https://github.com/MondoGao/cookies_and_sessions_lab-cb-gh-000
+        - https://github.com/MondoGao/login_required_lab-cb-gh-000
+        - https://github.com/MondoGao/sessions_controller_lab-cb-gh-000
+        - https://github.com/MondoGao/has_secure_password_lab-cb-gh-000
+        - https://github.com/MondoGao/omniauth_lab-cb-gh-000
+        - https://github.com/MondoGao/devise_lab-cb-gh-000
+        - https://github.com/MondoGao/cancan_lab-cb-gh-000
+        - https://github.com/MondoGao/devise_roles_lab-cb-gh-000
+        - https://github.com/MondoGao/devise_pundit_lab-cb-gh-000
+        - https://github.com/MondoGao/rails-amusement-park-cb-gh-000
+    - Project Mode
+        - https://github.com/MondoGao/flatiron-store-project-cb-gh-000
+        
+- Rails and JavaScript
+    - Asset Pipeline
+        - https://github.com/learn-co-backup/what-is-the-asset-pipeline-cb-gh-000
+        - https://github.com/learn-co-backup/javascript-manifests-cb-gh-000
+        - https://github.com/learn-co-backup/javascript-manifests-lab-cb-gh-000
+        - https://github.com/learn-co-backup/page-specific-javascript-rails-cb-gh-000
+        - https://github.com/learn-co-backup/external-javascript-libraries-in-rails-cb-gh-000
+        - https://github.com/learn-co-backup/css-manifests-cb-gh-000
+        - https://github.com/learn-co-backup/css-manifests-lab-cb-gh-000
+        - https://github.com/learn-co-backup/external-css-frameworks-in-rails-cb-gh-000
+        - https://github.com/learn-co-backup/asset-preprocessors-in-rails-cb-gh-000
+        - https://github.com/learn-co-backup/images-and-the-asset-pipeline-cb-gh-000
+        - https://github.com/learn-co-backup/bootstrap-asset-pipeline-cb-gh-000
+        - https://github.com/learn-co-backup/your-own-js-and-css-in-rails-cb-gh-000
+        - https://github.com/learn-co-backup/bootstrap-example-rails-lab-cb-gh-000
+    - Popular Gems
+        - https://github.com/learn-co-backup/rails-how-to-find-gems-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-paperclip-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-paperclip-lab-cb-gh-000
+        - https://github.com/learn-co-backup/rails-kaminari-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-kaminari-lab-cb-gh-000
+        - https://github.com/learn-co-backup/rails-active-admin-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-active-admin-lab-cb-gh-000
+    - Workers
+        - https://github.com/learn-co-backup/rails-long-running-tasks-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-long-running-tasks-lab-cb-gh-000
+        - https://github.com/learn-co-backup/rails-sidekiq-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-sidekiq-lab-cb-gh-000
+        - https://github.com/learn-co-backup/what-is-an-api-reading-cb-gh-000
+        - https://github.com/learn-co-backup/apis-and-postman-cb-gh-000
+        - https://github.com/learn-co-backup/apis-and-faraday-reading-cb-gh-000
+        - https://github.com/learn-co-backup/basic-apis-lab-cb-gh-000
+        - https://github.com/learn-co-backup/web-auth-readme-cb-gh-000
+        - https://github.com/learn-co-backup/ruby-posting-requests-cb-gh-000
+        - https://github.com/learn-co-backup/rails-github-api-cb-gh-000
+        - https://github.com/learn-co-backup/web-service-objects-readme-cb-gh-000
+        - https://github.com/learn-co-backup/rails-refactoring-apis-cb-gh-000
+    - Using AJAX
+        - https://www.youtube.com/watch?v=E8TJmwW5ayQ
+        - https://www.youtube.com/watch?v=XxzayZma5Ew
+        - https://www.youtube.com/watch?v=BcGtDkydAug
+        - https://www.youtube.com/watch?v=PT_C2211_QE
+    - Building APIs
+        - https://github.com/learn-co-backup/why-building-apis-reading-cb-gh-000
+        - https://github.com/learn-co-backup/returning-string-data-cb-gh-000
+        - https://github.com/learn-co-backup/return-string-data-lab-cb-gh-000
+        - https://github.com/learn-co-backup/diy-json-serializer-ruby-cb-gh-000
+        - https://github.com/learn-co-backup/diy-json-serializer-lab-cb-gh-000
+        - https://github.com/learn-co-backup/using-to-json-ruby-cb-gh-000
+        - https://github.com/learn-co-backup/using-to-json-lab-cb-gh-000
+        - https://github.com/learn-co-backup/using-active-model-serializer-cb-gh-000
+        - https://github.com/learn-co-backup/using-active-model-serializer-lab-cb-gh-000
+        - https://github.com/learn-co-backup/receiving-api-posts-cb-gh-000
+        - https://github.com/learn-co-backup/receiving-api-posts-lab-cb-gh-000
+    - Project Mode
+        - https://github.com/learn-co-backup/js-tictactoe-rails-api-cb-gh-000
+        - https://github.com/learn-co-backup/rails-js-assessment-cb-gh-000
+- React
+    - What is React
+        - https://github.com/learn-co-backup/javascript-virtual-dom-cb-gh-000
+        - https://github.com/learn-co-backup/react-declarative-programming-cb-gh-000
+        - https://github.com/learn-co-backup/react-create-element-cb-gh-000
+        - https://github.com/learn-co-backup/react-create-element-lab-cb-gh-000
+    - Rendering
+        - https://github.com/learn-co-backup/react-components-cb-gh-000
+        - https://github.com/learn-co-backup/react-components-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-jsx-cb-gh-000
+        - https://github.com/learn-co-backup/react-jsx-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-babel-plugins-cb-gh-000
+        - https://github.com/learn-co-backup/react-render-must-not-have-side-effects-cb-gh-000
+    - Props
+        - https://github.com/learn-co-backup/react-props-cb-gh-000
+        - https://github.com/learn-co-backup/react-props-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-prop-types-cb-gh-000
+        - https://github.com/learn-co-backup/react-prop-types-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-this-props-children-cb-gh-000
+        - https://github.com/learn-co-backup/react-this-props-children-lab-cb-gh-000
+    - State and Events
+        - https://github.com/learn-co-backup/react-initial-state-cb-gh-000
+        - https://github.com/learn-co-backup/react-initial-state-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-event-system-cb-gh-000
+        - https://github.com/learn-co-backup/react-event-system-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-events-in-detail-cb-gh-000
+        - https://github.com/learn-co-backup/react-events-in-detail-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-updating-state-cb-gh-000
+        - https://github.com/learn-co-backup/react-updating-state-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-forms-cb-gh-000
+        - https://github.com/learn-co-backup/react-forms-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-props-and-state-lab-cb-gh-000
+    - Mounting
+        - https://github.com/learn-co-backup/react-component-lifecycle-cb-gh-000
+        - https://github.com/learn-co-backup/react-component-mounting-and-unmounting-cb-gh-000
+        - https://github.com/learn-co-backup/react-component-mounting-and-unmounting-lab-cb-gh-000
+    - Rendering and Updating
+        - https://github.com/learn-co-backup/react-rendering-cb-gh-000
+        - https://github.com/learn-co-backup/react-rendering-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-component-lifecycle-lab-cb-gh-000
+    - Component Communication
+        - https://github.com/learn-co-backup/react-changing-state-cb-gh-000
+        - https://github.com/learn-co-backup/react-changing-state-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-actions-cb-gh-000
+        - https://github.com/learn-co-backup/react-actions-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-stores-cb-gh-000
+        - https://github.com/learn-co-backup/react-stores-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-unidirectional-data-cb-gh-000
+        - https://github.com/learn-co-backup/react-unidirectional-data-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-components-events-actions-and-stores-cb-gh-000
+        - https://github.com/learn-co-backup/react-type-ahead-wikipedia-search-lab-cb-gh-000
+    - Smart Components
+        - https://github.com/learn-co-backup/react-container-components-cb-gh-000
+        - https://github.com/learn-co-backup/react-container-components-lab-cb-gh-000
+    - Dumb Conponents
+        - https://github.com/learn-co-backup/react-presentation-components-cb-gh-000
+        - https://github.com/learn-co-backup/react-presentation-components-lab-cb-gh-000
+        - https://github.com/learn-co-backup/props-props-props-props-props-props-cb-gh-000
+        - https://github.com/learn-co-backup/react-passing-props-lab-cb-gh-000
+- Redux
+    - Adevanced Babel
+        - https://github.com/learn-co-backup/package-babel-and-webpack-cb-gh-000
+    - Actions and Stores
+        - https://github.com/learn-co-backup/react-what-the-flux-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-actions-and-action-creators-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-actions-and-action-creators-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-stores-readme-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-basic-reducer-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-stores-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-create-store-cb-gh-000
+    - State and Reducers
+        - https://github.com/learn-co-backup/intro-app-state-redux-cb-gh-000
+        - https://github.com/learn-co-backup/intro-to-redux-reducers-cb-gh-000
+        - https://github.com/learn-co-backup/redux-reducers-lab-cb-gh-000
+        - https://github.com/learn-co-backup/redux-combine-reducers-lab-cb-gh-000
+    - Components
+        - https://github.com/learn-co-backup/components-actions-and-stores-lab-cb-gh-000
+        - https://github.com/learn-co-backup/putting-it-all-together-lab-cb-gh-000
+    - React and Redux
+        - https://github.com/learn-co-backup/intro-to-redux-code-along-cb-gh-000
+        - https://github.com/learn-co-backup/intro-to-redux-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-intro-lab-cb-gh-000
+    - Routing with React Router
+        - https://github.com/learn-co-backup/react-introduction-to-react-router-cb-gh-000
+        - https://github.com/learn-co-backup/react-components-as-routes-cb-gh-000
+        - https://github.com/learn-co-backup/react-components-as-routes-lab-cb-gh-000
+        - https://github.com/learn-co-backup/react-router-nested-routes-cb-gh-000
+        - https://github.com/learn-co-backup/react-redux-nested-routes-lab-cb-gh-000
