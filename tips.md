@@ -16,3 +16,4 @@
 - ``Object.frozen`` can make the object unchangable
 - ``num.between?`` and ``range.cover?
 - ``*args``
+- OAuth

@@ -90,3 +90,6 @@ rails g rspec:install
 - authlogic
 - rolify
 - CanCanCan and Pundit
+- Paperclip
+- Kaminari
+- ActiveAdmin
